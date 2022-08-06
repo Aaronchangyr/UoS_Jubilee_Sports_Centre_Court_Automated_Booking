@@ -1,2 +1,2 @@
-cd "The_Path_Of_The_Code"
+cd "The_Filepath_Of_The_Codes"
 node app.js
