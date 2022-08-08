@@ -1,7 +1,8 @@
-# automated-Booking(Mainly for badminton court)
+# Automated-Booking (Mainly for badminton court)
 
 This is the code to book the court for University of Southampton Jubilee Sport hall (mainly badminton court).
 The code can be used in Windows and Linux OS System.
+
 
 
 Windows:
