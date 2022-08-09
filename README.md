@@ -1,17 +1,16 @@
 # Automated-Booking (Mainly for badminton court)
-
 ***
+This is the code to book the court for University of Southampton Jubilee Sport hall (mainly badminton court).
+
+The code can be used in Windows and Linux OS System.
 
 ## Table of Contents
+***
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-
-This is the code to book the court for University of Southampton Jubilee Sport hall (mainly badminton court).
-
-The code can be used in Windows and Linux OS System.
+5. [Reminders](#reminders)
 
 A list of technologies used within the project:
 * [Technology name](https://example.com): Version 12.3 
@@ -19,9 +18,11 @@ A list of technologies used within the project:
 * [Library name](https://example.com): Version 1234
 
 ### Installation
+***
 You can either download it in [Windows](#windows) or [Linux](#linux)
 
 #### Windows:
+***
 1. Download puppeter(https://pptr.dev/) and nodejs(https://nodejs.org/en/download/)
 2. Download the autobook.js and autobook.bat from the git.
 3. Open the autobook.js file with editor and change your name and password.
@@ -34,7 +35,8 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
     <li> Select start a program and choose the autobook.bat file</li></ol>
 7. You are all set! Try and run the task you scheduled and make sure it's all fine.
 
-### Linux:
+#### Linux:
+***
 1. Download puppeter and nodejs.
 2. Download the autobook_Linux.js and autobook.bat from the git.
 3. For the autobook_Linux.js there is only booking for badminton court.(You can try to reference autobook.js code to book other activities)
@@ -45,6 +47,6 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 7. Use Cron to schedule the task(it is very easy to do, google yourself)
 8. You are all set! Try and run the task you scheduled and make sure it's all fine.
 
-### Reminder:
+### Reminders:
 ***
 1. Jubilee Sport hall badminton court will book your court for the next week. (e.g. this monday will book next monday court) 
