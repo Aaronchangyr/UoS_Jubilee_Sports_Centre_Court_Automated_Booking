@@ -21,14 +21,22 @@ The code support Windows and Linux OS System.
 
 ### Installation
 ***
-You can either download it in [Windows](#windows) or [Linux](#linux)
+You can either download it in [Windows](#windows) or [Linux](#linux).
 
 #### Windows:
-***
-1. Download [puppeter][Puppeteer-url] and [node.js][Node.js-url].
-2. Create a file and name it "court-booking".
-3. Download the autobook.js and autobook.bat from the git into the file.
-4. Open the autobook.js file with editor and change your name and password.
+1. Create a file and name it "court-booking".
+2. Download [puppeter][Puppeteer-url] and [node.js][Node.js-url].
+    <details><summary>CLICK ME</summary>
+    <p>
+
+    ##### Download Puppeteer
+    ```sh <!-- language you use-->
+    npm i puppeteer
+    
+    ```
+    </p></details>
+4. Download the autobook.js and autobook.bat from the git into the file.
+5. Open the autobook.js file with editor and change your name and password.
     <details><summary>CLICK ME</summary>
     <p>
 
@@ -46,12 +54,12 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 7. You are all set! Try and run the task you scheduled and make sure it's all fine.
 
 #### Linux:
-***
-1. Download puppeter and node.js.
-2. Download the autobook_Linux.js and autobook.bat from the git.
-3. For the autobook_Linux.js there is only booking for badminton court. (You can try to reference autobook.js code to book other activities)
-4. Open the autobook.js file with editor and change your name and password.
-5. Read the autobook.js file and edit the file according your preference.
+1. Create a file and name it "court-booking".
+2. Download puppeter and node.js.
+3. Download the autobook_Linux.js and autobook.bat from the git.
+4. For the autobook_Linux.js there is only booking for badminton court. (You can try to reference autobook.js code to book other activities)
+5. Open the autobook.js file with editor and change your name and password.
+6. Read the autobook.js file and edit the file according your preference.
     (all functionality are set, add // to disable the function or delete the // to activate the function)
 6. Open the autobook.bat file with editor and change the path (after cd) to your file absolute path.
 7. Use Cron to schedule the task. (it is very easy to do, google yourself)
