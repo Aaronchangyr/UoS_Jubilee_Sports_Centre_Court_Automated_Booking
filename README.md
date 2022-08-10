@@ -1,5 +1,6 @@
-# Automated-Booking (Mainly for badminton court)
+# Automated-Booking
 ***
+This is the code to book the court for University of Southampton Jubilee Sport hall (mainly badminton court).
 
 ## Table of Contents
 ***
@@ -10,13 +11,13 @@
 
 ### General Info
 ***
-This is the code to book the court for University of Southampton Jubilee Sport hall (mainly badminton court).
-The purpose of doing this project is because Jubilee sport halls system is sucks. They require ppl to book the court at 12:00am in the mid-night and mtfk i need to sleep at that time. Thus, why not just create an automated booking script to do it for me. 
-The code can be used in Windows and Linux OS System.
+The purpose of doing this project is due to Jubilee sport halls system is sucks. They require ppl to book the court at 12:00am in the mid-night and mtfk I need to sleep at that time. Thus, why not just create an automated booking script to do it for me. 
+The code support Windows and Linux OS System.
 
 ### Built With
 ***
-* [![Javascript][Javascript]][Javascript-url]
+* [![Puppeteer][Puppeteer]][Puppeteer-url]
+* [![Nodejs][Node.js]][Node.js-url]
 
 ### Installation
 ***
@@ -24,9 +25,13 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 
 #### Windows:
 ***
-1. Download puppeter (https://pptr.dev/) and nodejs (https://nodejs.org/en/download/).
+1. Download [puppeter][Puppeteer-url] and nodejs [nodejs][Node.js-url].
 2. Download the autobook.js and autobook.bat from the git.
 3. Open the autobook.js file with editor and change your name and password.
+```
+await page.type('[name="ctl00$MainContent$InputLogin"]', 'username@soton.ac.uk'); //username
+await page.type('[name="ctl00$MainContent$InputPassword"]', 'password'); //password
+```
 4. Read the autobook.js file and edit the file according your preference. (all functionality are set, add // to disable the function or delete the // to activate the function)
 5. Open the autobook.bat file with editor and change the path (after cd) to your file absolute path.
 6. Open Task Schedular.<ol type="a">
@@ -51,7 +56,11 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 ***
 1. Jubilee Sport hall badminton court will book your court for the next week. (e.g. this monday will book next monday court) 
 
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Javascript]: https://img.shields.io/badge/javascript-323330?style=for-the-badge&logo=javascript&logoColor=F0DB4F
-[Javascript-url]: https://www.javascript.com/
+[Node.js]: https://img.shields.io/badge/Node.js-303030?style=for-the-badge&logo=nodedotjs&logoColor=3C873A
+[Node.js-url]: https://nodejs.org/en/
+[Puppeteer]: https://img.shields.io/badge/Puppeteer-01d8a2?style=for-the-badge&logo=Puppeteer&logoColor=000000
+[Puppeteer-url]: https://pptr.dev/
+
