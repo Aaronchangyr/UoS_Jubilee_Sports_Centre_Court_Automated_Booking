@@ -25,13 +25,17 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 
 #### Windows:
 ***
-1. Download [puppeter][Puppeteer-url] and nodejs [nodejs][Node.js-url].
+1. Download [puppeter][Puppeteer-url] and [node.js][Node.js-url].
 2. Download the autobook.js and autobook.bat from the git.
 3. Open the autobook.js file with editor and change your name and password.
-```
-await page.type('[name="ctl00$MainContent$InputLogin"]', 'username@soton.ac.uk'); //username
-await page.type('[name="ctl00$MainContent$InputPassword"]', 'password'); //password
-```
+    <details><summary>CLICK ME</summary>
+    <p>
+
+    ```javascript
+    await page.type('[name="ctl00$MainContent$InputLogin"]', 'username@soton.ac.uk'); //username
+    await page.type('[name="ctl00$MainContent$InputPassword"]', 'password'); //password
+    ```
+    </p></details>
 4. Read the autobook.js file and edit the file according your preference. (all functionality are set, add // to disable the function or delete the // to activate the function)
 5. Open the autobook.bat file with editor and change the path (after cd) to your file absolute path.
 6. Open Task Schedular.<ol type="a">
@@ -42,7 +46,7 @@ await page.type('[name="ctl00$MainContent$InputPassword"]', 'password'); //passw
 
 #### Linux:
 ***
-1. Download puppeter and nodejs.
+1. Download puppeter and node.js.
 2. Download the autobook_Linux.js and autobook.bat from the git.
 3. For the autobook_Linux.js there is only booking for badminton court. (You can try to reference autobook.js code to book other activities)
 4. Open the autobook.js file with editor and change your name and password.
