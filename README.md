@@ -26,8 +26,9 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 #### Windows:
 ***
 1. Download [puppeter][Puppeteer-url] and [node.js][Node.js-url].
-2. Download the autobook.js and autobook.bat from the git.
-3. Open the autobook.js file with editor and change your name and password.
+2. Create a file and name it "court-booking".
+3. Download the autobook.js and autobook.bat from the git into the file.
+4. Open the autobook.js file with editor and change your name and password.
     <details><summary>CLICK ME</summary>
     <p>
 
@@ -37,11 +38,11 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
     ```
     </p></details>
 4. Read the autobook.js file and edit the file according your preference. (all functionality are set, add // to disable the function or delete the // to activate the function)
-5. Open the autobook.bat file with editor and change the path (after cd) to your file absolute path.
+5. Open the autobook.bat file with note editor and change the path (after cd) to your file absolute path.
 6. Open Task Schedular.<ol type="a">
-    <li> Create basic task (set name, desciption) and click next</li>
-    <li> Start daily and set the date(your date) and time at 11:58pm or 23:58 (because the badminton court will update on 12:00) and click next</li>
-    <li> Select start a program and choose the autobook.bat file</li></ol>
+    <li> Create basic task (set name, desciption), click next.</li>
+    <li> Start daily and set the date(your date) and time at 11:58pm or 23:58 (because the badminton court will update on 12:00), click next.</li>
+    <li> Select start a program and choose autobook.bat file.</li></ol>
 7. You are all set! Try and run the task you scheduled and make sure it's all fine.
 
 #### Linux:
@@ -58,8 +59,8 @@ You can either download it in [Windows](#windows) or [Linux](#linux)
 
 ### Reminders:
 ***
-1. Jubilee Sport hall badminton court will book your court for the next week. (e.g. this monday will book next monday court) 
-
+1. The program will book your court for the next week. (e.g. this monday will book next monday court) 
+2. Make sure your laptop is on in the midnight. (can configure in power settings)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
