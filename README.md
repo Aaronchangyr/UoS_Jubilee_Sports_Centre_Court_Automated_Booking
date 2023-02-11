@@ -24,7 +24,7 @@ The code support Windows and Linux OS System.
 You can either download it in [Windows](#windows) or [Linux](#linux).
 
 #### Windows:
-1. Create a file and name it "court-booking".
+1. Create a new folder and name it "court-booking". 
 2. Download [puppeter][Puppeteer-url] and [node.js][Node.js-url].
     <details><summary>CLICK ME</summary>
     <p>
@@ -54,7 +54,7 @@ You can either download it in [Windows](#windows) or [Linux](#linux).
 7. You are all set! Try and run the task you scheduled and make sure it's all fine.
 
 #### Linux:
-1. Create a file and name it "court-booking".
+1. Create a folder and name it "court-booking".
 2. Download puppeter and node.js.
 3. Download the autobook_Linux.js and autobook.bat from the git.
 4. For the autobook_Linux.js there is only booking for badminton court. (You can try to reference autobook.js code to book other activities)
